@@ -1,11 +1,6 @@
-a{
-	font-family:sans-serif; 
-	padding:.5em;
-}
-
-a[data-sparkicon]:after{
+[data-sparkicon]:after{
 	content:attr(data-sparkicon) attr(data-sparkicon-plus);
-	font-family:sparkicons;
+	font-family:"sparkicons";
 	font-size:1em; /* configure when not using super script fonts */
 	display:inline-block;
 	margin-left:.25em;
